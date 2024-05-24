@@ -1,0 +1,46 @@
+.loader-2 {
+  left: 30px;
+}
+.site-header .extra-nav {
+  float: left;
+  padding-right: 30px;
+}
+.site-header.style-2 .mega-menu {
+  right: 0 !important;
+}
+.logo-header {
+  float: right;
+}
+.navbar-toggler {
+  float: left !important;
+}
+.breadcrumb-row ul .breadcrumb-item + .breadcrumb-item::before {
+  float: right;
+  padding-left: 12px;
+}
+.header-menu .header-nav .nav > li > .mega-menu,
+.header-menu .header-nav .nav > li > .sub-menu {
+  margin-right: 50px;
+  right: 100%;
+}
+
+.widget_post ul .dz-media {
+  margin-left: 12px;
+}
+.form-control {
+  direction: ltr;
+}
+.get-in-touch {
+  gap: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .header-nav .nav > li.menu-item-has-children > a:after,
+  .header-nav .nav > li.sub-menu-down > a:after {
+    float: left;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .navbar-toggler {
+    margin: 10px 0px 10px 0px;
+  }
+}
